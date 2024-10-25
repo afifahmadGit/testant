@@ -1,0 +1,54 @@
+<div class="container-lg my-5 d-6">
+    <h2 class="text-left mb-4" style="color: var(--bs-primary);">Contact Us</h2>
+    <form>
+      <!-- Row for Name and Email -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control is-valid" id="firstName" placeholder="First Name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="lastName" class="form-label">Email</label>
+          <input type="text" class="form-control is-valid" id="lastName" placeholder="Email" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+  
+      <!-- Row for Phone and Subject -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control is-invalid" id="phone" placeholder="Your Phone Number" required>
+          <div class="invalid-feedback">
+            Please enter a valid phone number.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control is-invalid" id="subject" placeholder="Subject" required>
+          <div class="invalid-feedback">
+            Please add a subject.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Message Field -->
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control is-invalid" id="message" rows="4" placeholder="Your Message" required></textarea>
+        <div class="invalid-feedback">
+          Please enter your message.
+        </div>
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button class="btn btn-primary mt-3" type="submit">Submit Form</button>
+      </div>
+    </form>
+  </div>

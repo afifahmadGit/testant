@@ -1,0 +1,11 @@
+.active {
+    background-color: #7fad39; /* Active background color */
+    color: white; /* Change text color for active brand */
+}
+.hero_brand{
+
+        position: relative;
+        padding: 10px 25px 10px 40px;
+        cursor: pointer;
+
+}

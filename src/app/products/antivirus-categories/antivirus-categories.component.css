@@ -1,0 +1,15 @@
+.custom-link {
+	transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.custom-link:hover {
+	background-color: #7fad39; /* Hover background color */
+	color: white; /* Change text color on hover for better contrast */
+    border-radius: 4px;
+}
+
+.active {
+    background-color: #7fad39; /* Hover background color */
+	color: white !important; /* Change text color on hover for better contrast */
+    border-radius: 4px;
+}

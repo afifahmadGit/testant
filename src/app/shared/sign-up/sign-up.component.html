@@ -1,0 +1,75 @@
+<div class="container-lg my-5">
+    <h3 class="text-left mb-4" style="color: var(--bs-primary);">Sign Up</h3>
+    <span class="font-seight-bold text-left"  style="color: var(--bs-primary)">*Signing up ensures your keys reach you safely, guaranteed.</span>
+    <form>
+      <!-- Row for First Name and Last Name -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="firstName" class="form-label">User Name</label>
+          <input type="text" class="form-control is-valid" id="firstName" placeholder="Your Name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+  
+      <!-- Row for Email and Phone Number -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control is-invalid" id="email" placeholder="Your Email" required>
+          <div class="invalid-feedback">
+            Please enter a valid email address.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control is-invalid" id="phone" placeholder="Your Phone Number" required>
+          <div class="invalid-feedback">
+            Please enter a valid phone number.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Row for State and City -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="state" class="form-label">State</label>
+          <input type="text" class="form-control is-invalid" id="state" placeholder="State" required>
+          <div class="invalid-feedback">
+            Please enter your state.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="city" class="form-label">City</label>
+          <input type="text" class="form-control is-invalid" id="city" placeholder="City" required>
+          <div class="invalid-feedback">
+            Please enter your city.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Row for Password and Confirm Password -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control is-invalid" id="password" placeholder="Password" required>
+          <div class="invalid-feedback">
+            Please enter a password.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="confirmPassword" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control is-invalid" id="confirmPassword" placeholder="Confirm Password" required>
+          <div class="invalid-feedback">
+            Passwords do not match.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button class="btn btn-primary mt-3" type="submit">Sign Up</button>
+      </div>
+    </form>
+</div>

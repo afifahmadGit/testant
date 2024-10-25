@@ -1,0 +1,10 @@
+.owl-carousel .item {
+  text-align: center;
+  padding: 15px;
+}
+
+.owl-carousel img {
+  max-width: 100%;
+  height: auto;
+}
+
